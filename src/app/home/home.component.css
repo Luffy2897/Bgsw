@@ -1,0 +1,43 @@
+.logo {
+  margin-top: -1%;
+  margin-left: 1%;
+}
+
+#sl1 {
+  margin-left: 20px;
+  margin-top: 30px;
+  height: 50px;
+  font-weight: bold;
+  color: green;
+}
+.but {
+  margin-top: 2px;
+  margin-left: 658px;
+  height: 30px;
+}
+.bg {
+  margin-top: 5%;
+  margin-left: 16%;
+}
+.logo {
+  margin-top: 7%;
+}
+a,
+#p1 {
+  color: black;
+}
+
+#al1 {
+  height: 22px;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100%;
+}
+
+.navbar-brand:hover {
+  color: black;
+}

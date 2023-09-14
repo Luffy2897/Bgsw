@@ -1,0 +1,37 @@
+#al1 {
+  left: 0;
+  width: 100%;
+  height: 15px;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
+a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  margin-top: 9%;
+}
+
+.img-hover-zoom {
+  height: 10%;
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s, filter 1ms ease-in-out;
+  filter: blur(2px);
+  transform: scale(1.2);
+}
+
+.img-hover-zoom:hover img {
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.cards-wrapper {
+  column-gap: 20px;
+}

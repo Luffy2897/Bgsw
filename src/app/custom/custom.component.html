@@ -1,0 +1,120 @@
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<div class="bg">
+  <div class="fnav">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-hidden"
+      style="height: 50px"
+    >
+      <button id="h1" mat-icon-button color="accent" routerLink="/home">
+        <mat-icon>home</mat-icon>
+      </button>
+      <div class="container-md justify-content-center">
+        <label id="head" class="navbar-brand">T-HUB LEARNING OFFERINGS</label>
+      </div>
+      <button routerLink="" type="button" class="btn btn-danger text-dark">
+        LOGOUT
+      </button>
+    </nav>
+
+    <img src="../../assets/imges/T-HUB.png" height="100px" />
+  </div>
+
+  <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<FOR CARDS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+  <section class="carousel text-center">
+    <div class="carousel__container">
+      <div class="container d-flex">
+        <h3
+          class="carousel-item__details--title text-light"
+          style="margin-left: 12%"
+        >
+          SAT
+        </h3>
+        <h3
+          class="carousel-item__details--title text-light"
+          style="margin-left: 18%"
+        >
+          Qualification Programs
+        </h3>
+        <h3
+          class="carousel-item__details--title text-light"
+          style="margin-left: 9%"
+        >
+          Fresher's Bootcamp
+        </h3>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="carousel-item__img"
+          src="../../assets/imges/A1.webp"
+          alt="people"
+        />
+        <div class="carousel-item__details">
+          <div class="controls">
+            <span class="fas fa-play-circle"></span>
+            <span class="fas fa-plus-circle"></span>
+            <h3 class="carousel-item__details--title">SAT</h3>
+            <button
+              routerLink="/custom_program"
+              type="button"
+              class="btn btn-outline-light"
+            >
+              Custom Program
+            </button>
+            <br />
+            <br />
+            <button
+              routerLink="/open_calender"
+              type="button"
+              class="btn btn-outline-light"
+            >
+              Open Calendar
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="carousel-item__img"
+          src="../../assets/imges/B1.jpg"
+          alt="people"
+        />
+        <div class="carousel-item__details">
+          <div class="controls">
+            <span class="fas fa-play-circle"></span>
+            <span class="fas fa-plus-circle"></span>
+            <h3 class="carousel-item__details--title">Qualification Program</h3>
+            <button
+              routerLink="/pmq"
+              type="button"
+              class="btn btn-outline-light"
+            >
+              PMQ
+            </button>
+            &nbsp;
+            <button
+              routerLink="/tcq"
+              type="button"
+              class="btn btn-outline-light"
+            >
+              TCQ
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          class="carousel-item__img"
+          src="../../assets/imges/C1.jpg"
+          alt="people"
+        />
+        <div class="carousel-item__details">
+          <div class="controls">
+            <span class="fas fa-play-circle"></span>
+            <span class="fas fa-plus-circle"></span>
+            <h3 class="carousel-item__details--title">Fresher's Bootcamp</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
